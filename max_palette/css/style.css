@@ -1,0 +1,89 @@
+html {
+  font-size: 8px;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  background: #8ca1e9;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+nav {
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  margin: 2px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 50px;
+  color: #04128b;
+}
+
+h2 {
+  font-size: 40px;
+  color: #a31309;
+}
+
+h3 {
+  font-size: 30px;
+  color: #0a574c;
+}
+
+#main {
+  background: #e2e2e2;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.button, .submit-buttton {
+  color: #e2e2e2;
+  width: 200px;
+  height: 40px;
+  background: #8ca1e9;
+}
+
+.submit-buttton {
+  border: 1px Black solid;
+}
+
+.message-shared, .message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  color: #679962;
+  border-color: #000000;
+}
+
+.error {
+  color: #962c2c;
+  border-color: #000000;
+}
+
+.warning {
+  color: #bcbe47;
+  border-color: #000000;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,98 @@
+
+@use "./font";
+@use "./colors";
+
+//layout
+html {
+  font-size: $font1;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  background: $backgroundcolor;
+  text-align: center;
+}
+
+.content {
+  max-width:800px;
+  margin: auto;
+}
+
+// Navigation //
+
+
+
+nav {
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  float: left;
+  margin: 2px;
+}
+nav ul li a {
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+// header //
+
+h1 {
+  font-size: $fontheader1;
+  color: $colorheader1;
+}
+
+h2 {
+  font-size: $fontheader2;
+  color: $colorheader2;
+}
+
+h3 {
+  font-size: $fontheader3;
+  color: $colorheader3;
+}
+
+#main {
+  background: $white;
+  padding: 60px;
+  font-size: 20px;
+}
+
+// Submit Button //
+
+.button, .submit-buttton {
+  color: $white;
+  width: 200px;
+  height: 40px;
+  background: $backgroundcolor;
+}
+
+.submit-buttton {
+  border: 1px Black solid;
+}
+
+// Rates //
+
+.message-shared, .message, .success, .error, .warning {
+  border: 1px solid $colorborder1;
+  padding: 10px;
+  color: $colorborder2;
+}
+
+.success {
+  border-color: $colorsuccess;
+}
+
+.error {
+  border-color: $colorerror;
+}
+
+.warning {
+  border-color: $colorwarning;
+}
